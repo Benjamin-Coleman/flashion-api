@@ -20,6 +20,11 @@ gem 'puma', '~> 3.7'
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'jwt'
+# gem 'httparty'
+gem 'aws-sdk', '~> 2.3'
+gem 'paperclip'
+gem 'image_processing'
+gem 'mini_magick', '>= 4.3.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

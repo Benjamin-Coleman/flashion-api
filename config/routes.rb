@@ -8,6 +8,7 @@ Rails.application.routes.draw do
     	post '/lookbooks/new', to: 'lookbooks#create'
     	get '/lookbooks/:id', to: 'lookbooks#show'
     	get '/currentuser', to: 'users#show'
+    	post '/testimageupload', to: 'images#upload'
     end
   end
 end
