@@ -9,6 +9,7 @@ Rails.application.routes.draw do
     	get '/lookbooks/:id', to: 'lookbooks#show'
     	get '/currentuser', to: 'users#show'
     	post '/testimageupload', to: 'images#upload'
+    	get '/customizations/:id', to: 'customizations#fetch_customizations'
     end
   end
 end
